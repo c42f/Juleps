@@ -33,7 +33,7 @@ See, for example,
 [section 2.1.2](https://books.google.com.au/books?redir_esc=y&id=J5-ckoCgc3IC&q=paralleism+versus+concurrency#v=snippet&q=paralleism%20versus%20concurrency&f=false)
 of "Introduction to Concurrency in Programming Languages".
 
-### What is structured concurrency?
+### The black box rule
 
 To quote the [`libdill` documentation](http://libdill.org/structured-concurrency.html),
 
