@@ -76,6 +76,11 @@ has expressed it this way in his blog post [Notes on structured concurrency or,
 > propagation. Therefore, like goto, they have no place in a modern high-level
 > language.
 
+It is important to emphasize that, as _absence_ of goto statement that can cross
+function boundaries is the major feature of modern languages, the _absence_ of
+"go statement" (`@spawn` in Julia 1.3) is the major feature of the structured
+concurrency.  This is because it is impossible for caller to know that a
+function follows structured concurrency without the language-level guarantee.
 
 ### Structured concurrency in Julia 1.0?
 
