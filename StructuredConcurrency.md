@@ -81,6 +81,10 @@ function boundaries is the major feature of modern languages, the _absence_ of
 "go statement" (`@spawn` in Julia 1.3) is the major feature of the structured
 concurrency.  This is because it is impossible for caller to know that a
 function follows structured concurrency without the language-level guarantee.
+Note that the situation in Julia is more serious compared to other languages
+which has functions with "two-colors" (see below) and plugable eventloop (e.g.,
+Python) where it is possible to enforce the _absence_ of "go statement" at the
+library level.
 
 ### Structured concurrency in Julia 1.0?
 
